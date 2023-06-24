@@ -1,4 +1,10 @@
-const submit = document.getElementById('submitBtn');
+const submitBtnHeader = document.getElementById('submitBtnHeader');
+const submitBtn = document.getElementById('submit-btn');
+const agreement = document.getElementById('agreement');
+
+function verifyCheckbox() {
+  submitBtn.disabled = !agreement.checked;
+}
 
 const submitAlert = () => {
   const email = document.getElementById('email').value;
@@ -11,5 +17,7 @@ const submitAlert = () => {
 };
 
 window.onload = () => {
-  submit.addEventListener('click', submitAlert);
+  submitBtn.disabled = true;
+  submitBtnHeader.addEventListener('click', submitAlert);
+  agreement.addEventListener('change', verifyCheckbox);
 };
