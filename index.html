@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Trybewarts</title>
 </head>
 <body>
-    
+    <header class="header">
+        <img width="80px" class="trybewarts-header-logo" src="./images/trybewarts-header-logo.svg" alt="">
+        <h1>Trybewarts</h1>
+        <nav>
+            <form class="trybewarts-login" action="" method="get" enctype="multipart/form-data">
+                <input type="password" name="password" id="password" placeholder="Senha" autocomplete="off">
+                <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="off">
+                <button id="submitBtn" type="submit">Entrar</button>
+                <label for="password"></label>
+                <label for="email"></label>
+            </form>
+        </nav>
+    </header>
 </body>
 </html>
