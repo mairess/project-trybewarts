@@ -28,6 +28,7 @@ function charCount() {
 
 textarea.addEventListener('input', charCount);
 
+// trye switch
 // const switchForm = () => {
 //   const valueName = document.getElementById('input-name').value;
 //   const form = document.getElementById('evaluation-form');
