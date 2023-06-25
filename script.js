@@ -15,6 +15,18 @@ const submitAlert = () => {
     window.alert('Email ou senha inválidos.');
   }
 };
+const textarea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+
+const charLimit = 500;
+
+function charCount() {
+  const inputTextareaLength = textarea.value.length;
+  const remainig = charLimit - inputTextareaLength;
+  counter.textContent = remainig;
+}
+
+textarea.addEventListener('input', charCount);
 
 window.onload = () => {
   submitBtn.disabled = true;

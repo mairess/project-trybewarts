@@ -29,4 +29,9 @@
   align-content: flex-start;
 }
 
-/* teste */
+#textarea {
+  resize: none;
+  width: 80%;
+  height: 80%;
+}
+
