@@ -44,8 +44,11 @@ header {
 #footer {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.824);
+  color: white;
+  padding: 1% 0;
 }
 
 #familyAprender {
