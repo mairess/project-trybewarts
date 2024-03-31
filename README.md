@@ -6,9 +6,7 @@ Realizado em dupla, o objetivo foi desenvolver um formulário para a escola de m
 
 ## Rode o projeto localmente
 
-```JSON
-Basta abir o index.html no navegador.
-```
+- Basta abir o `index.html` no navegador.
 
 ## Competências desenvolvidas
 
